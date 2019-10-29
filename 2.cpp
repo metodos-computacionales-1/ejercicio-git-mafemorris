@@ -17,7 +17,12 @@ int main(){
     cout << "Ingrese el tercer dato" << endl;
     cin >> v3;
 
-    
+    if(sqrt(v1*v1 + v2*v2)==v3 || sqrt(v1*v1 + v3*v3)==v2 || sqrt(v3*v3 + v2*v2)==v1){
+        cout << "Es triangulo rectangulo" << endl;
+    }
+    else{
+        cout << "No es triangulo rectangulo" << endl;
+    }
 
     return 0;
 
